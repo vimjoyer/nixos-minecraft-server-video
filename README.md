@@ -1,11 +1,13 @@
 ## Declaring Minecraft Servers With Nix Video
 
+In the video, the service is incorrectly referred to as `minecraft`; the correct name is `minecraft-servers`, sorry for confusion. 
+
 # Simple minecraft server example
 ```nix
 { pkgs, lib, ...}: 
 
 {
-  services.minecraft = {
+  services.minecraft-servers = {
     enable = true;
     eula = true;
     declarative = true;
