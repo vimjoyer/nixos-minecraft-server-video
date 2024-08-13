@@ -7,7 +7,7 @@ In the video, the service is incorrectly referred to as `minecraft`; the correct
 { pkgs, lib, ...}: 
 
 {
-  services.minecraft-servers = {
+  services.minecraft-server = {
     enable = true;
     eula = true;
     declarative = true;
